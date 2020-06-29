@@ -41,6 +41,8 @@
 
 ![homepage](https://github.com/adreaskar/images/blob/master/home1.jpg?raw=true)
 
+Εδώ καλείται να δημιουργήσει έναν λογαριασμό για να μπορέσει να χρησιμοποιήσει την εφαρμογή, αλλιώς εάν ήδη έχει μπορεί να κάνει Log In πατώντας την αντίστοιχη ένδειξη.
+
 ## Πώς μπορώ να το χρησιμοποιήσω
 
 :heavy_exclamation_mark: ***ΠΡΟΣΟΧΗ Δεν υποστηρίζεται η λειτουργία σε περιβάλλον Windows ή MacOS αλλά μόνο Linux!*** :heavy_exclamation_mark:
