@@ -39,7 +39,7 @@
 
 Στην αρχική σελίδα ο χρήστης συναντά την φόρμα εγγραφής στο σύστημα. 
 
-![homepage](https://github.com/adreaskar/images/blob/master/home.jpg?raw=true)
+![homepage](https://github.com/adreaskar/images/blob/master/home1.jpg?raw=true)
 
 ## Πώς μπορώ να το χρησιμοποιήσω
 
