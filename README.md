@@ -43,6 +43,8 @@
 
 Εδώ καλείται να δημιουργήσει έναν λογαριασμό για να μπορέσει να χρησιμοποιήσει την εφαρμογή, αλλιώς εάν ήδη έχει μπορεί να κάνει Log In πατώντας την αντίστοιχη ένδειξη.
 
+![login](https://github.com/adreaskar/images/blob/master/login1.jpg?raw=true)
+
 ## Πώς μπορώ να το χρησιμοποιήσω
 
 :heavy_exclamation_mark: ***ΠΡΟΣΟΧΗ Δεν υποστηρίζεται η λειτουργία σε περιβάλλον Windows ή MacOS αλλά μόνο Linux!*** :heavy_exclamation_mark:
@@ -51,7 +53,7 @@
 
 Για να χρησιμοιποιήσετε την εφαρμογή πρέπει να κατεβάσετε τα αρχεία του Repository στον υπολογιστή σας. Αυτό μπορεί να γίνει εύκολα κατεβάζοντας τα ως .zip αρχείο, όπως φαίνεται παρακάτω.
 
-![download](https://github.com/adreaskar/images/blob/master/download.jpg?raw=true)
+![homepage](https://github.com/adreaskar/images/blob/master/login1.jpg?raw=true)
 
 :pushpin: **Εγκατάσταση docker / docker-compose**
 
