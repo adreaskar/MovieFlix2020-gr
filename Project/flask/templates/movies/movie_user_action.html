@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div class="title">
+        <p>MovieFlix</p>
+    </div>
+    <div class="subtitle">
+        <p>Comment / Rate on the Movie</p>
+    </div>
+    
+    <br><br>
+    
+    <div class="main-block">
+        <form name="movieuseraction" action="" method="POST">
+            <center>
+            <input type="text" name="user_comment" placeholder="Leave a comment to this movie" />
+            <input type="text" name="user_rating" placeholder="Rate this movie(0-10)" />
+            <div class="btn-block">
+                <button type="submit" href="/">Submit</button>
+            </div>
+            </center>
+        </form>
+    </div>
+
+{% endblock content %}

@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div class="title">
+        <p>MovieFlix</p>
+    </div>
+    <div class="subtitle">
+        <p>Promote a user</p>
+    </div>
+    
+    <br><br>
+    
+    <div class="main-block" id="register">
+        <h1>Type user's e-mail</h1>
+        <form name="userpromote" action="" method="POST">
+            <center>
+            <input type="text" name="user_promote" id="name" placeholder="User's e-mail" required/>
+            <div class="btn-block">
+                <button type="submit" href="/">Promote to admin</button>
+            </div>
+            </center>
+            
+        </form>
+    </div>
+
+{% endblock content %}

@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div class="title">
+        <p>MovieFlix</p>
+    </div>
+    <div class="subtitle">
+        <p>Please register to use our services</p>
+    </div>
+    
+    <br><br>
+    
+    <div class="main-block" id="register">
+        <h1>Register</h1>
+        <form name="registerdata" action="." method="POST">
+            <center>
+            <input type="text" name="name" id="name" placeholder="Name" required/>
+        
+            <input type="text" name="email" id="name" placeholder="E-mail" required/>
+        
+            <input type="password" name="password" id="name" placeholder="Password" required/>
+            <hr>
+            <div class="btn-block">
+                <button type="submit" href="/">Register</button>
+            </div>
+            <p>Or if you have an account <a href="http://localhost:5000/login">click here!</a></p> 
+            </center>
+            
+        </form>
+    </div>
+
+{% endblock content %}

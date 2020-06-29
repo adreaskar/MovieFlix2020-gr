@@ -1,0 +1,126 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <br><br>
+
+    {% if y==1 %}
+        <div class="main-block">
+            <h1>Movie was removed!</h1>
+            
+            <center>
+                <a href="http://localhost:5000/movie_remove">
+                    <button style="width: 50%;">Remove another</button>
+                </a>
+            </center>
+            <center>
+                <a href="#" onclick="history.go(-2)">
+                    <button style="width: 50%;">Go back</button>
+                </a>
+            </center>
+            
+        </div> 
+    {% elif y==2 %}
+        <div class="main-block">
+            <h1>User was removed!</h1>
+            
+            <center>
+                <a href="http://localhost:5000/user_remove">
+                    <button style="width: 50%;">Remove another</button>
+                </a>
+            </center>
+            <center>
+                <a href="#" onclick="history.go(-2)">
+                    <button style="width: 50%;">Go back</button>
+                </a>
+            </center>
+        </div>
+    {% elif y==3 %}
+        <div class="main-block">
+            <h1>User was promoted!</h1>
+            
+            <center>
+                <a href="http://localhost:5000/user_category">
+                    <button style="width: 50%;">Promote another</button>
+                </a>
+            </center>
+            <center>
+                <a href="#" onclick="history.go(-2)">
+                    <button style="width: 50%;">Go back</button>
+                </a>
+            </center>
+        </div> 
+    {% elif y==4 %} 
+        <div class="main-block">
+            <h1>Movie was added!</h1>
+            
+            <center>
+                <a href="http://localhost:5000/movie_add">
+                    <button style="width: 50%;">Add another</button>
+                </a>
+            </center>
+            <center>
+                <a href="#" onclick="history.go(-2)">
+                    <button style="width: 50%;">Go back</button>
+                </a>
+            </center>
+            
+        </div>  
+    {% elif y==5 %}
+        <div class="main-block">
+            <h1>Movie was updated!</h1>
+            
+            <center>
+                <a href="http://localhost:5000/movie_update">
+                    <button style="width: 50%;">Update another</button>
+                </a>
+            </center>
+            <center>
+                <a href="#" onclick="history.go(-2)">
+                    <button style="width: 50%;">Go back</button>
+                </a>
+            </center>
+        </div> 
+    {% elif y==6 %}
+        <div class="main-block">
+            <h1>Thanks for the feedback!</h1>
+            
+            <center>
+                <a href="#" onclick="history.go(-4)">
+                    <button style="width: 50%;">Go back</button>
+                </a>
+            </center>
+        </div>
+    {% elif y==7 %}
+        <div class="main-block">
+            <h1>Comment Deleted!</h1>
+            
+            <center>
+                <a href="#" onclick="history.go(-3)">
+                    <button style="width: 50%;">Go back</button>
+                </a>
+            </center>
+        </div>
+    {% elif y==8 %}
+    <div class="main-block">
+        <h1>Comment Deleted!</h1>
+        
+        <center>
+            <a href="#" onclick="history.go(-2)">
+                <button style="width: 50%;">Go back</button>
+            </a>
+        </center>
+    </div>
+    {% elif y==9 %}
+        <div class="main-block">
+            <h1>Rating Deleted!</h1>
+            
+            <center>
+                <a href="#" onclick="history.go(-3)">
+                    <button style="width: 50%;">Go back</button>
+                </a>
+            </center>
+        </div>     
+    {% endif %}    
+    
+{% endblock content %}

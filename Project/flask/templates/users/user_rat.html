@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div class="title">
+        <p>MovieFlix</p>
+    </div>
+    <div class="subtitle">
+        <p>Track your ratings</p>
+    </div>
+    
+    <br><br>
+
+    <div class="movie-block">
+        <h1>User's Ratings</h1>
+        <center>
+
+            {% for rating in ratings %}
+                <h3>{{rating}}/10</h3>
+            {% endfor %}
+
+            <hr style="width: 80%;">
+
+            <a href="http://localhost:5000/rating_delete?user_mail={{mail}}">
+                <button style="width: 50%;">Delete a rating</button>
+            </a>
+
+            <a href="#" onclick="history.go(-1)">
+                <button style="width: 50%;">Go back</button>
+            </a>
+        </center>
+        
+    </div>
+
+{% endblock content %}

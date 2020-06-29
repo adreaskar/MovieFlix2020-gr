@@ -1,0 +1,86 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="title">
+    <p>MovieFlix</p>
+</div>
+<div class="subtitle">
+    <p>User profile</p>
+</div>
+
+<br>
+
+<div class="main-block">
+    <h1>Logged in as: {{user_name}}</h1>
+    <p style="text-align: center;">Account type: <span style="color: red;">Admin</span></p>
+    <!-- Logout -->
+    <center>
+        <a href="http://localhost:5000">
+            <button style="width: 50%;background: #cc0000;" id="logout">Logout</button>
+        </a>
+    </center>
+
+    <hr style="width: 80%;">
+
+    <h3 style="text-align: center;">You can choose one of the following actions:</h3>
+
+    <!-- Search for a movie -->
+    <center>
+        
+        <a href="http://localhost:5000/movie_search?user_mail={{mail}}">
+            <button style="width: 50%;">Search for a movie</button>
+        </a>
+    </center>
+
+    <!-- See user's comments -->
+    <center>
+        <a href="http://localhost:5000/user_com?user_mail={{mail}}">
+            <button style="width: 50%;">Your comments</button>
+        </a>
+    </center>
+
+    <!-- See user's ratings -->
+    <center>
+        <a href="http://localhost:5000/user_rat?user_mail={{mail}}">
+            <button style="width: 50%;">Your ratings</button>
+        </a>
+    </center>
+
+    <!-- Delete Account -->
+    <form action="" method="POST">
+        <center>
+            <input type="submit" value="Delete your account" style="width: 60%;">
+        </center>
+        <p style="text-align: center;"><span style="color: red;">Caution!</span> This will permanently delete your account!</p>
+    </form>
+
+    <hr style="width: 80%;">
+
+    <h3 style="text-align: center;">Admin actions:</h3>
+
+    <!-- Manage Movies -->
+    <center>
+        <a href="http://localhost:5000/movie_actions">
+            <button style="width: 50%;">Movies actions</button>
+        </a>
+    </center>
+
+    <!-- Manage Users -->
+    <center>
+        <a href="http://localhost:5000/user_actions">
+            <button style="width: 50%;">Users actions</button>
+        </a>
+    </center>
+
+    <!-- Remove Comments -->
+    <center>
+        <a href="http://localhost:5000/admin_comment_delete">
+            <button style="width: 50%;">Remove comments</button>
+        </a>
+    </center>
+    
+</div>
+
+{% endblock content %}

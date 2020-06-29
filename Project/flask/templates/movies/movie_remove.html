@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div class="title">
+        <p>MovieFlix</p>
+    </div>
+    <div class="subtitle">
+        <p>Remove a movie</p>
+    </div>
+    
+    <br><br>
+    
+    <div class="main-block" id="register">
+        <h1>Type the movie title</h1>
+        <form name="movieremove" action="" method="POST">
+            <center>
+            <input type="text" name="title_remove" id="name" placeholder="Movie Title" required/>
+            <div class="btn-block">
+                <button type="submit" href="/">Remove</button>
+            </div>
+            </center>
+            
+        </form>
+    </div>
+
+{% endblock content %}

@@ -1,0 +1,19 @@
+<html>
+
+    <head>
+        {% if title %}
+            <title>MovieFlix - {{title}}</title>
+        {% else %}
+            <title>Welcome to MovieFlix</title>    
+        {% endif %}    
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+		<script src="{{ url_for('static', filename='fun.js') }}"></script>
+    </head>
+
+    <body>
+        {% block content %}{% endblock %}
+    </body>
+
+</html>

@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <br><br>
+
+    {% if x==1 %}
+        <div class="main-block">
+            <h1>User already registered!</h1>
+            <p style="text-align: center;">Please fill the form again</p>
+            
+            <center>
+                <a href="http://localhost:5000">
+                    <button style="width: 50%;">Go back</button>
+                </a>
+            </center>
+            
+        </div>
+    {% elif x==2 %}
+        <div class="main-block">
+            <h1>User is not registered<br>or submited wrong password.</h1>
+            <br>
+            <p style="text-align: center;">Please fill the form again</p>
+            <center>
+                <a href="http://localhost:5000/login">
+                    <button style="width: 50%;">Go back</button>
+                </a>
+            </center>
+            <br>
+            <hr style="width: 70%;">
+            <p style="text-align: center;">Or register</p>
+            <center>
+                <a href="http://localhost:5000">
+                    <button style="width: 50%;">Register</button>
+                </a>
+            </center>
+        </div>
+    {% elif x==3 %}
+        <div class="main-block">
+            <h1>User cannot be deleted</h1>
+            <p style="text-align: center;">This user is an <span style="color: red;">Admin</span></p>
+            <center>
+                <a href="http://localhost:5000/user_remove">
+                    <button style="width: 50%;">Go back</button>
+                </a>
+            </center>
+        </div>
+    {% elif x==4 %}
+        <div class="main-block">
+            <h1>Movie Does not exist</h1>
+            <center>
+                <a href="http://localhost:5000/movie_search?user_mail={{user_mail}}">
+                    <button style="width: 50%;">Go back</button>
+                </a>
+            </center>
+        </div>
+    {% elif x==5 %}
+        <div class="main-block">
+            <h1>No movies this year</h1>
+            <center>
+                <a href="http://localhost:5000/movie_search?user_mail={{user_mail}}">
+                    <button style="width: 50%;">Go back</button>
+                </a>
+            </center>
+        </div>
+    {% elif x==6 %}
+        <div class="main-block">
+            <h1>No movies with this actor</h1>
+            <center>
+                <a href="http://localhost:5000/movie_search?user_mail={{user_mail}}">
+                    <button style="width: 50%;">Go back</button>
+                </a>
+            </center>
+        </div>
+    {% elif x==7 %}
+        <div class="main-block">
+            <h1>No movies with this title</h1>
+            <center>
+                <a href="http://localhost:5000/movie_search?user_mail={{user_mail}}">
+                    <button style="width: 50%;">Go back</button>
+                </a>
+            </center>
+        </div>         
+    {% endif %}    
+    
+    
+{% endblock content %}

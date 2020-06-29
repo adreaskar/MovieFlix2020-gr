@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div class="title">
+        <p>MovieFlix</p>
+    </div>
+    <div class="subtitle">
+        <p>Delete your comments</p>
+    </div>
+    
+    <br><br>
+
+    <div class="movie-block">
+        <h1>Select a comment to delete</h1>
+        <center>
+            <br>
+            <form name="commentdelete" action="" method="POST">
+                <center>
+                <select style="width: 57%;" name="com_del" id="">
+                    {% for comment in comments %}
+                        <option value="{{comment}}">{{comment}}</option>
+                    {% endfor %}
+                </select>
+            
+                <div class="btn-block">
+                    <button style="width: 57%;" type="submit" href="/">Delete</button>
+                </div>
+                </center>
+                
+            </form>
+
+            <a href="#" onclick="history.go(-1)">
+                <button style="width: 50%;">Go back</button>
+            </a>
+        </center>
+        
+    </div>
+
+{% endblock content %}

@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div class="title">
+        <p>MovieFlix</p>
+    </div>
+    <div class="subtitle">
+        <p>Add a movie</p>
+    </div>
+    
+    <br><br>
+    
+    <div class="main-block" id="register">
+        <h1>Add movie details</h1>
+        <form name="movieadd" action="" method="POST">
+            <center>
+            <input type="text" name="title" id="name" placeholder="Movie Title" required/>
+            <input type="text" name="plot" id="name" placeholder="Movie Description"/>
+            <input type="text" name="year" id="name" placeholder="Release Date"/>
+            <input type="text" name="actors" id="name" placeholder="Lead Actors" required/>
+            <div class="btn-block">
+                <button style="width:83%;" type="submit" href="/">Add</button>
+            </div>
+            </center>
+            
+        </form>
+    </div>
+
+{% endblock content %}

@@ -1,0 +1,54 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="title">
+    <p>MovieFlix</p>
+</div>
+<div class="subtitle">
+    <p>Movie actions</p>
+</div>
+
+<br>
+
+<div class="main-block">
+
+    <h3 style="text-align: center;">You can choose one of the following actions:</h3>
+
+    <hr style="width: 80%;">
+
+    <!-- Add movie to database -->
+    <center>
+        <a href="http://localhost:5000/movie_add">
+            <button style="width: 50%;">Add a movie</button>
+        </a>
+    </center>
+
+    <!-- Remove movie from database -->
+    <center>
+        <a href="http://localhost:5000/movie_remove">
+            <button style="width: 50%;">Remove a movie</button>
+        </a>
+    </center>
+
+    <!-- Update movie from database -->
+    <center>
+        <a href="http://localhost:5000/movie_update">
+            <button style="width: 50%;">Update movie details</button>
+        </a>
+    </center>
+
+    <hr style="width: 80%;">
+
+    <!-- Go back -->
+    <center>
+        <a href="javascript:history.back()">
+            <button style="width: 50%;">Back to profile</button>
+        </a>
+    </center>
+    
+    
+</div>
+
+{% endblock content %}

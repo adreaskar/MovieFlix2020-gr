@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div class="title">
+        <p>MovieFlix</p>
+    </div>
+    <div class="subtitle">
+        <p>Select a movie</p>
+    </div>
+    
+    <br><br>
+    
+    <div class="main-block" id="register">
+        <h1>Movies with this actor</h1>
+        <br>
+        <form name="movieselect" action="" method="POST">
+            <center>
+            <select style="width: 80%;" name="movie_sel" id="">
+                {% for movie in actor_movies %}
+                    <option value="{{movie['Title']}} {{movie['Year']}}">{{movie['Title']}} ({{movie['Year']}})</option>
+                {% endfor %}
+            </select>
+            <div class="btn-block">
+                <button style="width: 80%;" type="submit" href="/">Select</button>
+            </div>
+            <hr style="width: 80%;">
+            <a href="#" onclick="history.go(-1)">
+                <button style="width: 80%;" >Go back</button>
+            </a>
+            </center>
+            
+        </form>
+    </div>
+
+{% endblock content %}

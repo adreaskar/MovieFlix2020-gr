@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div class="title">
+        <p>MovieFlix</p>
+    </div>
+    <div class="subtitle">
+        <p>Find a movie</p>
+    </div>
+    
+    <br><br>
+    
+    <div class="main-block">
+        <h1>Please choose one of the following:</h1>
+        <form name="moviesearch" action="" method="POST">
+            <center>
+            <input type="text" name="search_title" placeholder="Search by title" />
+
+            <input type="text" name="search_year" placeholder="Search by year of release" />
+
+            <input type="text" name="search_actors" placeholder="Search by actors" />
+            <div class="btn-block">
+                <button type="submit" href="/" style="width: 80%;">Search</button>
+            </div>
+
+            <hr style="width: 80%;">
+
+            <a href="#" onclick="history.go(-1)">
+                <button style="width: 80%;">Go back</button>
+            </a>
+            </center>
+        </form>
+    </div>
+
+{% endblock content %}

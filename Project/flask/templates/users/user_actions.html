@@ -1,0 +1,47 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="title">
+    <p>MovieFlix</p>
+</div>
+<div class="subtitle">
+    <p>User actions</p>
+</div>
+
+<br>
+
+<div class="main-block">
+
+    <h3 style="text-align: center;">You can choose one of the following actions:</h3>
+
+    <hr style="width: 80%;">
+
+    <!-- Change user category -->
+    <center>
+        <a href="http://localhost:5000/user_category">
+            <button style="width: 50%;">Promote user</button>
+        </a>
+    </center>
+
+    <!-- Remove user from database -->
+    <center>
+        <a href="http://localhost:5000/user_remove">
+            <button style="width: 50%;">Remove a user</button>
+        </a>
+    </center>
+
+    <hr style="width: 80%;">
+
+    <!-- Go back -->
+    <center>
+        <a href="javascript:history.back()">
+            <button style="width: 50%;">Back to profile</button>
+        </a>
+    </center>
+    
+    
+</div>
+
+{% endblock content %}
