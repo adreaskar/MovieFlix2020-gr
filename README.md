@@ -53,7 +53,7 @@
 
 Για να χρησιμοιποιήσετε την εφαρμογή πρέπει να κατεβάσετε τα αρχεία του Repository στον υπολογιστή σας. Αυτό μπορεί να γίνει εύκολα κατεβάζοντας τα ως .zip αρχείο, όπως φαίνεται παρακάτω.
 
-![homepage](https://github.com/adreaskar/images/blob/master/login1.jpg?raw=true)
+![homepage](https://github.com/adreaskar/images/blob/master/download.jpg?raw=true)
 
 :pushpin: **Εγκατάσταση docker / docker-compose**
 
