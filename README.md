@@ -41,13 +41,13 @@
 
 Στην αρχική σελίδα ο χρήστης συναντά την φόρμα εγγραφής στο σύστημα. 
 
-![homepage](https://github.com/adreaskar/images/blob/master/home1.jpg?raw=true)
-
 Εδώ καλείται να δημιουργήσει έναν λογαριασμό για να μπορέσει να χρησιμοποιήσει την εφαρμογή, αλλιώς εάν ήδη έχει μπορεί να κάνει Log In πατώντας την αντίστοιχη ένδειξη.
 
-![login](https://github.com/adreaskar/images/blob/master/login1.jpg?raw=true)
+![homepage](https://github.com/adreaskar/images/blob/master/home1.jpg?raw=true)
 
 Μετά την επιτυχή εγγραφή του χρήστη ακολουθεί η ενέργεια της εισόδου στο σύστημα με τα στοιχέια που απαιτούνται, τα οποία συμπλήρωσε και κατα την διάρκεια της εγγραφής.
+
+![login](https://github.com/adreaskar/images/blob/master/login1.jpg?raw=true)
 
 ## Πώς μπορώ να το χρησιμοποιήσω
 
