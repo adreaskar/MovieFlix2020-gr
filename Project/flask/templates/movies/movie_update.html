@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div class="title">
+        <p>MovieFlix</p>
+    </div>
+    <div class="subtitle">
+        <p>Update a movie</p>
+    </div>
+    
+    <br><br>
+    
+    <div class="main-block" id="register">
+        <h1>Type the movie title</h1>
+        <form name="movieupdate" action="" method="POST">
+            <center>
+            <input type="text" name="title_search" id="name" placeholder="Movie Title" required/>
+            
+            <button type="button" style="width: 83%;" onclick="showForm()">Edit movie details</button>
+
+            <hr id="movie_update_row" style="display: none;">
+
+            <input type="text" name="title_update" id="title_update" placeholder="Update Movie Title" style="display: none;" />
+            <input type="text" name="year_update" id="year_update" placeholder="Update Movie Year" style="display: none;" />
+            <input type="text" name="plot_update" id="plot_update" placeholder="Update Movie Description" style="display: none;" />
+            <input type="text" name="actors_update" id="actors_update" placeholder="Add Actors (Tom,Brad,Maria etc)" style="display: none;" />
+            <input type="text" name="actors_remove" id="actors_remove" placeholder="Remove Movie Actor" style="display: none;" />
+            
+            
+
+            <div class="btn-block">
+                <button type="submit" id="movie_update_submit" href="/" style="display: none;width: 83%;">Submit</button>
+            </div>
+
+            <a href="#" onclick="history.go(-1)">
+                <button style="width: 83%;">Go back</button>
+            </a>
+            </center>
+            
+        </form>
+    </div>
+
+{% endblock content %}
