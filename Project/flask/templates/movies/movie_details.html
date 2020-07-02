@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div class="title">
+        <p>MovieFlix</p>
+    </div>
+    <div class="subtitle">
+        <p>Movie Details</p>
+    </div>
+    
+    <br><br>
+
+    <div class="movie-block">
+        <h1>{{titl}}</h1>
+        <center>
+            <h3><u>Year of release</u>: {{year}}</h3>
+
+            <h3><u>Description</u>: {{plot}}</h3>
+
+            <h3><u>Rating</u>: {{rating}} /10</h3>
+
+            <hr style="width: 80%;">
+
+            <h3 style="text-decoration: underline;">Actors:</h3>
+            {% for actor in actors %}
+                <h3>{{actor}}</h3>
+            {% endfor %}
+
+            <br>
+
+            <h3 style="text-decoration: underline;">Comments:</h3>
+            {% for comment in comments %}
+                <h3>{{comment}}</h3>
+            {% endfor %}
+
+            <hr style="width: 80%;">
+
+            <a href="http://localhost:5000/movie_user_action?user_mail={{user_mail}}&title={{titl}}">
+                <button style="width: 50%;">Comment / Rate</button>
+            </a>
+        
+            <hr style="width: 80%;">
+
+            <a href="http://localhost:5000/movie_search?user_mail={{user_mail}}">
+                <button style="width: 50%;">Search other movie</button>
+            </a>
+
+            <a href="#" onclick="history.go(-3)">
+                <button style="width: 50%;">Back to profile</button>
+            </a>
+        </center>
+        
+    </div>
+
+{% endblock content %}
