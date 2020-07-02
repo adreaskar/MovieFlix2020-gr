@@ -136,6 +136,10 @@
 
 ![promote_user](https://github.com/adreaskar/images/blob/master/promote_user1.jpg?raw=true)
 
+Η δεύτερη είναι η Remove user όπου πολύ απλά μπορεί να αφαιρέσει έναν χρήστη βάση του e-mail του.
+
+![remove_user](https://github.com/adreaskar/images/blob/master/remove_user1.jpg?raw=true)
+
 ## Πώς μπορώ να το χρησιμοποιήσω
 
 :heavy_exclamation_mark:  ***ΠΡΟΣΟΧΗ Δεν υποστηρίζεται η λειτουργία σε περιβάλλον Windows ή MacOS αλλά μόνο Linux!***  :heavy_exclamation_mark:
