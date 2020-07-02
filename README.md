@@ -83,6 +83,12 @@
 
 ![user_comments](https://github.com/adreaskar/images/blob/master/comment_deleted1.jpg?raw=true)
 
+:+1: **Your ratings:**
+
+Παρόμοια με τα σχόλια εμφανίζονται οι βαθμολογίες του χρήστη και σε ποιά ταινία και υπάρχει η επιλογή για διαγραφή.
+
+![user_ratings](https://github.com/adreaskar/images/blob/master/rating_deleted1.jpg?raw=true)
+
 ## Πώς μπορώ να το χρησιμοποιήσω
 
 :heavy_exclamation_mark:  ***ΠΡΟΣΟΧΗ Δεν υποστηρίζεται η λειτουργία σε περιβάλλον Windows ή MacOS αλλά μόνο Linux!***  :heavy_exclamation_mark:
