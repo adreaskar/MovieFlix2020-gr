@@ -7,7 +7,7 @@
 - [Πώς μπορώ να το χρησιμοποιήσω?](https://github.com/adreaskar/MovieFlix2020_E17067_Karabetian_Andreas#%CF%80%CF%8E%CF%82-%CE%BC%CF%80%CE%BF%CF%81%CF%8E-%CE%BD%CE%B1-%CF%84%CE%BF-%CF%87%CF%81%CE%B7%CF%83%CE%B9%CE%BC%CE%BF%CF%80%CE%BF%CE%B9%CE%AE%CF%83%CF%89)
 
 ## Τι έιναι το MovieFlix
-Είναι ένα Web Service, μία βάση δεδομένων που αποθηκεύονται οι εγγεγραμμένοι χρήστες αλλά και πληροφορίες για ταινίες. 
+Είναι ένα Web Service, μία βάση δεδομένων που αποθηκεύονται οι εγγεγραμμένοι χρήστες αλλά και πληροφορίες για ταινίες.
 
 :movie_camera: Αυτές να είναι:
 
@@ -134,7 +134,7 @@
 $ sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
 
-Αναβάθμιση του `apt` και εγκατάσταση πακέτων 
+Αναβάθμιση του `apt` και εγκατάσταση πακέτων:
 
 ```
 $ sudo apt-get update
@@ -147,13 +147,13 @@ $ sudo apt-get install \
     software-properties-common
 ```
 
-Προσρθήκη του Docker GPG key
+Προσρθήκη του Docker GPG key:
 
 ```
 $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
 
-Προσθήκη του repository
+Προσθήκη του repository:
 
 ```
 $ sudo add-apt-repository \
@@ -162,14 +162,14 @@ $ sudo add-apt-repository \
    stable"
 ```
 
-Και τέλος αφού φτιάξαμε το repository του docker, απλά το εγκαθιστούμε
+Και τέλος αφού φτιάξαμε το repository του docker, απλά το εγκαθιστούμε:
 
 ```
 $ sudo apt-get update
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
-Για την εγκατάσταση του docker-compose θα χρειαστούν οι παρακάτω δύο εντολές
+Για την εγκατάσταση του docker-compose θα χρειαστούν οι παρακάτω δύο εντολές:
 
 ```
 $ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
