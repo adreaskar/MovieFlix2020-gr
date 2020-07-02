@@ -73,6 +73,10 @@
 
 ![movie_details](https://github.com/adreaskar/images/blob/master/details1.jpg?raw=true)
 
+Ας δούμε την επιλογή Comment /Rate. Σε αυτήν την σελίδα υπάρχουν 2 πεδία τα οποία οδηγούν τον χρήστη να αφήσει ένα σχόλιο ή μια βαθμολογία (από 0 έχως 10). Ύστερα όταν ψάξει ξανά αυτήν την ταινία, το σχόλιο του θα εμφανίζεται στις λεπτομέρεις μαζί με το e-mail του, καθώς επίσης θα έχει προσμετρηθεί η βαθμολογία του στην βαθμολογία της ταινίας.
+
+![movie_details](https://github.com/adreaskar/images/blob/master/comment_rate1.jpg?raw=true)
+
 ## Πώς μπορώ να το χρησιμοποιήσω
 
 :heavy_exclamation_mark:  ***ΠΡΟΣΟΧΗ Δεν υποστηρίζεται η λειτουργία σε περιβάλλον Windows ή MacOS αλλά μόνο Linux!***  :heavy_exclamation_mark:
