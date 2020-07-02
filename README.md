@@ -97,6 +97,10 @@
 - email:    admin@admin.com
 - password: admin
 
+Μετά το Login βρισκόμαστε στην σελίδα του διαχειριστή.
+
+![admin_profile](https://github.com/adreaskar/images/blob/master/admin1.jpg?raw=true)
+
 ## Πώς μπορώ να το χρησιμοποιήσω
 
 :heavy_exclamation_mark:  ***ΠΡΟΣΟΧΗ Δεν υποστηρίζεται η λειτουργία σε περιβάλλον Windows ή MacOS αλλά μόνο Linux!***  :heavy_exclamation_mark:
