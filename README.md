@@ -89,6 +89,14 @@
 
 ![user_ratings](https://github.com/adreaskar/images/blob/master/rating_deleted1.jpg?raw=true)
 
+
+:tophat: Ενέργειες `ΔΙΑΧΕΙΡΙΣΤΗ`:
+
+Όπως προαναφέραμε υπάρχει δυνατότητα εισόδου στο σύστημα ως διαχειριστής. By default υπάρχει ένας λογαριασμός διαχειριστή στο σύστημα απο την αρχή και μπορεί να διαγραφεί μόνο εαν ο ίδιος το επιθυμεί. Για είσοδο στο σύστημα με αυτόν τον λογαριασμό, βάζσουμε στην σελίδα **Login** τα παρακάτω στοιχεία:
+
+- email:    admin@admin.com
+- password: admin
+
 ## Πώς μπορώ να το χρησιμοποιήσω
 
 :heavy_exclamation_mark:  ***ΠΡΟΣΟΧΗ Δεν υποστηρίζεται η λειτουργία σε περιβάλλον Windows ή MacOS αλλά μόνο Linux!***  :heavy_exclamation_mark:
