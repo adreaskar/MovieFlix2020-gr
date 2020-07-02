@@ -187,8 +187,6 @@ $ sudo chmod +x /usr/local/bin/docker-compose
 
 Το πρόγραμμα θα αρχίσει να φτιάχνει τα απαραίτητα αρχεία που χρειάζεται και θα έχει τελειώσει όταν δούμε το σχετικό μήνυμα όπως φαίνεται παρακάτω.
 
-![done](https://github.com/adreaskar/images/blob/master/done.jpg?raw=true)
-
 ![success](https://github.com/adreaskar/images/blob/master/success.jpg?raw=true)
 
 ## Πλέον μπορούμε να χρησιμοποιήσουμε την εφαρμογή ανοίγοντας έναν browser και πλητρολογώντας την διεύθυνση "localhost:5000"
