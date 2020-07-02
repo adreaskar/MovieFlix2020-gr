@@ -124,7 +124,7 @@
 
 Η δεύτερη επιλογή είναι η Remove a movie, η οποία οδηγεί στην σελίδα διαγραφής μιας ταινίας βάση του τίτλου της. Εάν υπάρχουν πολλές ταινίες με τον ίδιο τίτλο τότε διαγράφεται αυτή με την παλαιότερη ημερομηνία κυκλοφορίας.
 
-![remove_movie](https://github.com/adreaskar/images/blob/master/add_movie1.jpg?raw=true)
+![remove_movie](https://github.com/adreaskar/images/blob/master/remove_movie1.jpg?raw=true)
 
 ## Πώς μπορώ να το χρησιμοποιήσω
 
