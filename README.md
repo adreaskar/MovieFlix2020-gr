@@ -126,6 +126,10 @@
 
 ![remove_movie](https://github.com/adreaskar/images/blob/master/remove_movie1.jpg?raw=true)
 
+Και τέλος η τρίτη επιλογή, Update movie details δίνει στον χρήστη την δυνατότητα να επεξεργαστεί τις πληροφορίες μιας ταινίας δίνοντας στην αρχή τον τίτλο της. Μετά εμφανίζονται τα πεδία που μπορεί να επεξεργαστεί. Αντίστοιχα όπως και στην προσθήκη ταινίας, το πεδίο για τους actors μπορεί να πάρει πολλά ονόματα χωρισμένα με κόμμα.
+
+![update_movie](https://github.com/adreaskar/images/blob/master/update_movie1.jpg?raw=true)
+
 ## Πώς μπορώ να το χρησιμοποιήσω
 
 :heavy_exclamation_mark:  ***ΠΡΟΣΟΧΗ Δεν υποστηρίζεται η λειτουργία σε περιβάλλον Windows ή MacOS αλλά μόνο Linux!***  :heavy_exclamation_mark:
