@@ -130,6 +130,12 @@
 
 ![update_movie](https://github.com/adreaskar/images/blob/master/update_movie1.jpg?raw=true)
 
+:bust_in_silhouette: **User actions**
+
+Είναι οι δράσεις που μπορεί να κάνει ο διαχειριστής και αφορούν τους χρήστες. Η πρώτη είναι η Promote User, οπου συμπληρώνοντας το e-mail ενός απλού χρήστη μπορεί να τον κάνει διαχειριστή.
+
+![promote_user](https://github.com/adreaskar/images/blob/master/promote_user1.jpg?raw=true)
+
 ## Πώς μπορώ να το χρησιμοποιήσω
 
 :heavy_exclamation_mark:  ***ΠΡΟΣΟΧΗ Δεν υποστηρίζεται η λειτουργία σε περιβάλλον Windows ή MacOS αλλά μόνο Linux!***  :heavy_exclamation_mark:
