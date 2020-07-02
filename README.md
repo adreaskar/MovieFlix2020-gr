@@ -75,7 +75,13 @@
 
 Ας δούμε την επιλογή Comment /Rate. Σε αυτήν την σελίδα υπάρχουν 2 πεδία τα οποία οδηγούν τον χρήστη να αφήσει ένα σχόλιο ή μια βαθμολογία (από 0 έχως 10). Ύστερα όταν ψάξει ξανά αυτήν την ταινία, το σχόλιο του θα εμφανίζεται στις λεπτομέρεις μαζί με το e-mail του, καθώς επίσης θα έχει προσμετρηθεί η βαθμολογία του στην βαθμολογία της ταινίας.
 
-![movie_details](https://github.com/adreaskar/images/blob/master/comment_rate1.jpg?raw=true)
+![comment_rate](https://github.com/adreaskar/images/blob/master/comment_rate1.jpg?raw=true)
+
+:speech_balloon: **Your comments:**
+
+Με αυτήν την επιλογή εμφανίζονται τα σχόλια που έχει κάνει ο χρήστης και σε ποιά ταινία. Μπορεί να διαγράψει κάποιο απο αυτά διαλέγοντάς το απο το dropdown menu στην επιλογή **Delete a comment**
+
+![user_comments](https://github.com/adreaskar/images/blob/master/comments1.jpg?raw=true)
 
 ## Πώς μπορώ να το χρησιμοποιήσω
 
