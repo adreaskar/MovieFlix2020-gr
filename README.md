@@ -81,7 +81,7 @@
 
 Με αυτήν την επιλογή εμφανίζονται τα σχόλια που έχει κάνει ο χρήστης και σε ποιά ταινία. Μπορεί να διαγράψει κάποιο απο αυτά διαλέγοντάς το απο το dropdown menu στην επιλογή **Delete a comment**
 
-![user_comments](https://github.com/adreaskar/images/blob/master/comments1.jpg?raw=true)
+![user_comments](https://github.com/adreaskar/images/blob/master/comment_deleted1.jpg?raw=true)
 
 ## Πώς μπορώ να το χρησιμοποιήσω
 
