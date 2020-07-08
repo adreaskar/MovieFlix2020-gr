@@ -7,7 +7,7 @@
 - [Πώς μπορώ να το χρησιμοποιήσω?](https://github.com/adreaskar/MovieFlix2020_E17067_Karabetian_Andreas#%CF%80%CF%8E%CF%82-%CE%BC%CF%80%CE%BF%CF%81%CF%8E-%CE%BD%CE%B1-%CF%84%CE%BF-%CF%87%CF%81%CE%B7%CF%83%CE%B9%CE%BC%CE%BF%CF%80%CE%BF%CE%B9%CE%AE%CF%83%CF%89)
 
 ## Τι έιναι το MovieFlix
-Είναι ένα Web Service, μία βάση δεδομένων που αποθηκεύονται οι εγγεγραμμένοι χρήστες αλλά και πληροφορίες για ταινίες.
+Είναι ένα Web Service με μία βάση δεδομένων που αποθηκεύονται οι εγγεγραμμένοι χρήστες αλλά και πληροφορίες για ταινίες.
 
 :movie_camera: Αυτές να είναι:
 
