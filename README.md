@@ -225,4 +225,4 @@ $ sudo chmod +x /usr/local/bin/docker-compose
 
 ## Πλέον μπορούμε να χρησιμοποιήσουμε την εφαρμογή ανοίγοντας έναν browser και πλητρολογώντας την διεύθυνση "localhost:5000"
 
-<img align=righ src="https://img.shields.io/github/repo-size/adreaskar/MovieFlix2020-gr?color=%23ff7429&style=for-the-badge">
+<img align="right" src="https://img.shields.io/github/repo-size/adreaskar/MovieFlix2020-gr?color=%23ff7429&style=for-the-badge">
