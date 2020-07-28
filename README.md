@@ -224,3 +224,5 @@ $ sudo chmod +x /usr/local/bin/docker-compose
 ![success](https://github.com/adreaskar/images/blob/master/success.jpg?raw=true)
 
 ## Πλέον μπορούμε να χρησιμοποιήσουμε την εφαρμογή ανοίγοντας έναν browser και πλητρολογώντας την διεύθυνση "localhost:5000"
+
+![size](https://img.shields.io/github/repo-size/adreaskar/MovieFlix2020-gr?color=%23ff7429&style=for-the-badge)
